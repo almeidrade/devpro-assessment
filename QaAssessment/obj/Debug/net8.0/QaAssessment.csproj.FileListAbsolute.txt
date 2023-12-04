@@ -7,6 +7,7 @@ C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAss
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.AssemblyInfoInputs.cache
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.AssemblyInfo.cs
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.csproj.CoreCompileInputs.cache
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.sourcelink.json
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.dll
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\refint\QaAssessment.dll
 C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.pdb
