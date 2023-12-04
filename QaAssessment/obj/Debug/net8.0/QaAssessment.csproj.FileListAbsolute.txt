@@ -1,0 +1,14 @@
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\bin\Debug\net8.0\QaAssessment.exe
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\bin\Debug\net8.0\QaAssessment.deps.json
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\bin\Debug\net8.0\QaAssessment.runtimeconfig.json
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\bin\Debug\net8.0\QaAssessment.dll
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\bin\Debug\net8.0\QaAssessment.pdb
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.AssemblyInfoInputs.cache
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.AssemblyInfo.cs
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.csproj.CoreCompileInputs.cache
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.dll
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\refint\QaAssessment.dll
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.pdb
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\QaAssessment.genruntimeconfig.cache
+C:\Users\PC Gamer\Repo2\Logger_Csharp\devpro\QaAssessment\obj\Debug\net8.0\ref\QaAssessment.dll
