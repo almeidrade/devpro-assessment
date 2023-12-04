@@ -2,5 +2,5 @@
 
 interface ISorterProductBase
 {
-    void SortByProperty(ProductProperty productProperty);
+    List<ProductsModel> SortByProperty(ProductProperty productProperty, List<ProductsModel> productsList);
 }

@@ -1,18 +1,12 @@
 ﻿namespace QaAssessment;
 using System.Text.Json;
-public class Products_DAO : SortProductBase
-{
-    string directory = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName;
-    JsonSerializerOptions options = new JsonSerializerOptions();
-
-    public Products_DAO()
+public class SortProdAssessment_DAO : SortProdAssessment, ISorterProductBase
+{    public SortProdAssessment_DAO(string directory) : base(directory, "Products.json")
     {
-        options.PropertyNameCaseInsensitive = true;
-        var productsJson = File.ReadAllText(directory + "/" + "Products.json");
-
+        FilePath = FileDirectory + "/" + FileName;
     }
 
-    public override void sortByProperty()
+    public List<ProductsModel> SortByProperty(ProductProperty productProperty, List<ProductsModel> productsList)
     {
         throw new NotImplementedException();
     }
