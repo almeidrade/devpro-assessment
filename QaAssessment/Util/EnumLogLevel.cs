@@ -9,3 +9,10 @@ public enum LogLevel
     WARNING = 3,
     NONE = 6
 }
+
+public enum ProductProperty
+{
+    PRICE = 1,  
+    NAME = 2,
+    stock = 3
+}
