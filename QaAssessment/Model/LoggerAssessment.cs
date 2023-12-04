@@ -7,19 +7,19 @@ public class LoggerAssessment
         this.FileDirectory = FileDirectory;
         this.FileName = FileName;
     }
-    public String FileDirectory
+    public string FileDirectory
     {
         get;
         set;
     }
 
-    public String FileName
+    public string FileName
     {
         get;
         set;
     }
 
-    public String FilePath
+    public string FilePath
     {
         get;
         set;
