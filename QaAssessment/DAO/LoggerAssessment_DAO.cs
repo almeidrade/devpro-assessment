@@ -16,7 +16,7 @@ public class LoggerAssessment_DAO : LoggerAssessment, ILoggerBase
                     wr.Write($"\rLog Entry: {guid}");
                     wr.WriteLine($"\n[{logLevel}] user {loggedUser} logged in {dateTime} {date}");
                     wr.WriteLine($"Message: {Message}" + ".");
-                    wr.WriteLine("-------------------------------------------------------------------");
+                    wr.WriteLine("--------------------------------------------------------------------------------------------");
                 }
             }
             catch (Exception e)

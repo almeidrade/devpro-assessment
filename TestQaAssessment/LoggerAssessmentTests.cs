@@ -22,13 +22,18 @@ public class LoggerAssessmentTests
         lines = new List<string>();
     }
 
+    public List<string> readsTheLogFile(string directory, string fileName)
+    {
+        return File.ReadAllLines(directory + "/" + "Log.txt").ToList();
+    }
+
     [Test]
     public void TestLoggerLevel_INFO()
     {
         logLevel = LogLevel.INFO;
-        logger.Log(guid, "user accessed the system session info", logLevel, loggedUser.Name, dateTime, date);
+        logger.Log(guid, "user accessed the system session - INFO", logLevel, loggedUser.Name, dateTime, date);
         
-        lines = File.ReadAllLines(directory + "/" + "Log.txt").ToList();
+        lines = readsTheLogFile(directory, "Log.txt");
         
         for (int i = 0; i < lines.Count; i++)
         {
@@ -43,15 +48,51 @@ public class LoggerAssessmentTests
     public void TestLoggerLevel_CRITICAL()
     {
         logLevel = LogLevel.CRITICAL;
-        logger.Log(guid, "user accessed the system session info", logLevel, loggedUser.Name, dateTime, date);
+        logger.Log(guid, "user accessed the system session - CRITICAL", logLevel, loggedUser.Name, dateTime, date);
         
-        lines = File.ReadAllLines(directory + "/" + "Log.txt").ToList();
+        lines = readsTheLogFile(directory, "Log.txt");
         
         for (int i = 0; i < lines.Count; i++)
         {
             if (lines[i].StartsWith("Log Entry") && lines[i].Contains(guid.ToString()))
             {
                 Assert.True(lines[i + 1].Contains("CRITICAL"));
+            }
+        }
+    }
+
+    [Test]
+    public void TestLoggerLevel_DATE_INFO()
+    {
+        logLevel = LogLevel.TRACE;
+        logger.Log(guid, "asserts that the infos related to the date is being stored to the log file - TRACE", logLevel, loggedUser.Name, dateTime, date);
+
+        lines = readsTheLogFile(directory, "Log.txt");
+
+        for (int i = 0; i < lines.Count; i++)
+        {
+            if (lines[i].StartsWith("Log Entry") && lines[i].Contains(guid.ToString()))
+            {
+                Assert.True(lines[i + 1].Contains(dateTime));
+                Assert.True(lines[i + 1].Contains(date));
+                Assert.True(lines[i + 1].Contains("TRACE"));
+            }
+        }
+    }
+
+    [Test]
+    public void TestLoggerLevel_LogMessage()
+    {
+        logLevel = LogLevel.INFO;
+        logger.Log(guid, "asserts that the log message is being stored to the log file", logLevel, loggedUser.Name, dateTime, date);
+
+        lines = readsTheLogFile(directory, "Log.txt");
+
+        for (int i = 0; i < lines.Count; i++)
+        {
+            if (lines[i].StartsWith("Log Entry") && lines[i].Contains(guid.ToString()))
+            {
+                Assert.True(lines[i + 2].Contains("Message") && lines[i + 2].Contains("."));
             }
         }
     }

@@ -1,0 +1,16 @@
+Log Entry: 263be347-883f-430b-b1d0-51e2c4d27b95
+[CRITICAL] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Message: user accessed the system session - CRITICAL.
+--------------------------------------------------------------------------------------------
+Log Entry: 343aa94c-fd7e-4fda-9e75-144fc3ba69d0
+[TRACE] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Message: asserts that the infos related to the date is being stored to the log file - TRACE.
+--------------------------------------------------------------------------------------------
+Log Entry: 536716ca-b9b0-4159-b16f-28dd73069f0c
+[INFO] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 56feb759-83f0-42d2-a501-513b2eb52fab
+[INFO] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Message: asserts that the log message is being stored to the log file.
+--------------------------------------------------------------------------------------------
