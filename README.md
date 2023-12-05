@@ -14,6 +14,6 @@ Project created as part of the challenge proposed by the DevPro company for a QA
   - Nunit 3
 
 ## General Info
-The solution consists of two projects, one of which is for testing. For the purpose of the task challenge it was created two applications in the same project (which I named 'QaAssessment'). One for logging messages to a file and the other one to sort lists of a Inventory Management json. The test project was organized into two separate classes, each for its respective project.
+The solution consists of two projects, one of which is for testing. For the purpose of the task challenge it was created two applications in the same project (which I named 'QaAssessment'), one for logging messages to a file and the other one to sort lists of a Inventory Management json. The test project was organized into two separate classes, each for its respective project.
 
 For the purpose of this task challenge, it was not used a library for Logging (E.g. log4net, NLog etc.) as it would be in the real world, I've "manually" developed my own version of it.
