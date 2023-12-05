@@ -3,7 +3,7 @@ Project created as part of the challenge proposed by the DevPro company for a QA
 
 ## Environment Setup
 - Download and install .NET 8 (https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/sdk-8.0.100-windows-x64-installer)
-- The project was developed using .NET 8.0 and VSCODE for the code editor + C# Dev Kit Extension
+- The project was developed using .NET 8.0 and VSCODE for the code editor + C# Dev Kit Extension (I recommend using this editor, for its lightness and practicality)
 - Be sure to wait until everything is downloaded and set when opening for the first time
 
 ## Prerequisites
