@@ -6,6 +6,11 @@ public class LoggerAssessment_DAO : LoggerAssessment, ILoggerBase
     {
         FilePath = FileDirectory + "/" + FileName;
     }
+
+    public List<string> readsTheLogFile(string directory, string fileName)
+    {
+        return File.ReadAllLines(directory + "/" + "Log.txt").ToList();
+    }
     public void Log(Guid guid, string Message, LogLevel logLevel, string loggedUser, string dateTime, string date)
     {
         StreamWriter wr;

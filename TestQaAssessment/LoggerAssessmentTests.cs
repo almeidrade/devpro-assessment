@@ -22,18 +22,13 @@ public class LoggerAssessmentTests
         lines = new List<string>();
     }
 
-    public List<string> readsTheLogFile(string directory, string fileName)
-    {
-        return File.ReadAllLines(directory + "/" + "Log.txt").ToList();
-    }
-
     [Test]
     public void TestLoggerLevel_INFO()
     {
         logLevel = LogLevel.INFO;
         logger.Log(guid, "user accessed the system session - INFO", logLevel, loggedUser.Name, dateTime, date);
         
-        lines = readsTheLogFile(directory, "Log.txt");
+        lines = logger.readsTheLogFile(directory, "Log.txt");
         
         for (int i = 0; i < lines.Count; i++)
         {
@@ -50,7 +45,7 @@ public class LoggerAssessmentTests
         logLevel = LogLevel.CRITICAL;
         logger.Log(guid, "user accessed the system session - CRITICAL", logLevel, loggedUser.Name, dateTime, date);
         
-        lines = readsTheLogFile(directory, "Log.txt");
+        lines = logger.readsTheLogFile(directory, "Log.txt");
         
         for (int i = 0; i < lines.Count; i++)
         {
@@ -67,7 +62,7 @@ public class LoggerAssessmentTests
         logLevel = LogLevel.TRACE;
         logger.Log(guid, "asserts that the infos related to the date is being stored to the log file - TRACE", logLevel, loggedUser.Name, dateTime, date);
 
-        lines = readsTheLogFile(directory, "Log.txt");
+        lines = logger.readsTheLogFile(directory, "Log.txt");
 
         for (int i = 0; i < lines.Count; i++)
         {
@@ -86,7 +81,7 @@ public class LoggerAssessmentTests
         logLevel = LogLevel.INFO;
         logger.Log(guid, "asserts that the log message is being stored to the log file", logLevel, loggedUser.Name, dateTime, date);
 
-        lines = readsTheLogFile(directory, "Log.txt");
+        lines = logger.readsTheLogFile(directory, "Log.txt");
 
         for (int i = 0; i < lines.Count; i++)
         {

@@ -2,5 +2,5 @@
 
 interface ISorterProductBase
 {
-    List<ProductsModel> SortByProperty(ProductProperty productProperty, List<ProductsModel> productsList);
+    List<ProductsModel> SortByProperty(ProductProperty productProperty, string productsJson, bool descending);
 }

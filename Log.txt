@@ -1,16 +1,32 @@
-Log Entry: 263be347-883f-430b-b1d0-51e2c4d27b95
-[CRITICAL] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Log Entry: f99897d7-1b29-48f8-8d50-aa8f7425105e
+[CRITICAL] user clandrade logged in 8:53:44 PM Monday, December 4, 2023
 Message: user accessed the system session - CRITICAL.
 --------------------------------------------------------------------------------------------
-Log Entry: 343aa94c-fd7e-4fda-9e75-144fc3ba69d0
-[TRACE] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Log Entry: 8ba5a09f-4cd1-4ccf-9dfd-573717255bbc
+[TRACE] user clandrade logged in 8:53:44 PM Monday, December 4, 2023
 Message: asserts that the infos related to the date is being stored to the log file - TRACE.
 --------------------------------------------------------------------------------------------
-Log Entry: 536716ca-b9b0-4159-b16f-28dd73069f0c
-[INFO] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Log Entry: e4f78834-3656-4023-8d4a-69b62b1b4915
+[INFO] user clandrade logged in 8:53:44 PM Monday, December 4, 2023
 Message: user accessed the system session - INFO.
 --------------------------------------------------------------------------------------------
-Log Entry: 56feb759-83f0-42d2-a501-513b2eb52fab
-[INFO] user clandrade logged in 5:40:32 PM Monday, December 4, 2023
+Log Entry: 0f2eff51-cac8-4e66-97a4-7b251d4ea313
+[INFO] user clandrade logged in 8:53:44 PM Monday, December 4, 2023
+Message: asserts that the log message is being stored to the log file.
+--------------------------------------------------------------------------------------------
+Log Entry: 48e8c3bc-1618-4e4b-9c51-b955ed291e8b
+[CRITICAL] user clandrade logged in 9:00:47 PM Monday, December 4, 2023
+Message: user accessed the system session - CRITICAL.
+--------------------------------------------------------------------------------------------
+Log Entry: db4d3a0f-d0dd-4982-80f1-36dfc9855ba5
+[TRACE] user clandrade logged in 9:00:47 PM Monday, December 4, 2023
+Message: asserts that the infos related to the date is being stored to the log file - TRACE.
+--------------------------------------------------------------------------------------------
+Log Entry: 7187ecbc-cc77-440c-bd19-f2bb1aa3187a
+[INFO] user clandrade logged in 9:00:47 PM Monday, December 4, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: efc72a0a-f0b9-49f8-a6c5-c30592b8f2e6
+[INFO] user clandrade logged in 9:00:47 PM Monday, December 4, 2023
 Message: asserts that the log message is being stored to the log file.
 --------------------------------------------------------------------------------------------

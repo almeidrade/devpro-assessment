@@ -14,5 +14,5 @@ public enum ProductProperty
 {
     PRICE = 1,  
     NAME = 2,
-    stock = 3
+    STOCK = 3
 }
