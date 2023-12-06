@@ -19,6 +19,6 @@ Project created as part of the challenge proposed by the DevPro company for a QA
 
 The solution consists of two projects, one of which is for testing. For the purpose of the task challenge it was created two applications in the same project (which I named 'QaAssessment'), one for logging messages to a file and the other one for sorting lists of an Inventory Management json. The test project was organized into two separate classes, each for its respective project.
 
-It was used a "semi-mvc" approach, there's no controller neither View, of course (it didn't make sense for this purpose and size of the project), however the project was created following the best practices of OOP Concept, including encapsulation, inheritance and polymorphism.
+It was used a "semi-mvc" approach, there's no Controller neither View, of course (it didn't make sense for this purpose and size of the project), however the project was created following the best practices of OOP Concept, including encapsulation, inheritance and polymorphism.
 
 For the purpose of this task challenge, it was not used a library for Logging (E.g. log4net, NLog etc.) as it would be in the real world, I've "manually" developed my own version of it.
