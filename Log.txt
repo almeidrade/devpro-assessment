@@ -82,3 +82,55 @@ Message: user accessed the system session - INFO.
 [INFO] user clandrade logged in 10:48:32 AM Friday, December 8, 2023
 Message: asserts that the log message is being stored to the log file.
 --------------------------------------------------------------------------------------------
+Log Entry: 404f1189-b067-4268-b60e-51f883e4ea17
+[INFO] user clandrade logged in 1:05:51 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: ecd3d9c8-a897-46d6-8a65-c29b944f42ae
+[CRITICAL] user clandrade logged in 1:05:51 PM Friday, December 8, 2023
+Message: user accessed the system session - CRITICAL.
+--------------------------------------------------------------------------------------------
+Log Entry: f527282e-585c-4471-bdfe-502d2702c615
+[TRACE] user clandrade logged in 1:05:51 PM Friday, December 8, 2023
+Message: asserts that the infos related to the date is being stored to the log file - TRACE.
+--------------------------------------------------------------------------------------------
+Log Entry: 35402ad7-2a2d-4656-baf4-7c01f2e603b5
+[INFO] user clandrade logged in 1:05:51 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 316b22f3-d2fb-497c-bfa3-97b455105aa9
+[INFO] user clandrade logged in 1:05:51 PM Friday, December 8, 2023
+Message: asserts that the log message is being stored to the log file.
+--------------------------------------------------------------------------------------------
+Log Entry: c8797d8c-8fc5-4ee4-a2e8-ab631f45f7b0
+[INFO] user clandrade logged in 1:08:00 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 543a83c7-8f67-4fae-af47-40aa9ec2ce4c
+[INFO] user clandrade logged in 1:11:26 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 87d3b15f-3110-44e6-9e53-306339d7ecca
+[INFO] user clandrade logged in 1:12:07 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: e4c4f25d-727d-4dd2-8e7d-3da4990a2be8
+[INFO] user clandrade logged in 1:12:56 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 694bba68-0e78-4707-9c77-f2f73ad1906c
+[INFO] user clandrade logged in 1:16:24 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 4c23b4cd-ccb6-4f9c-87dc-aef6b7a98e8c
+[INFO] user clandrade logged in 1:16:47 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: eac32d4b-e402-4993-bceb-56a60bf46452
+[INFO] user clandrade logged in 1:26:02 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 9cf31b03-7e77-4b62-b866-595c9605e9ed
+[INFO] user clandrade logged in 1:27:35 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
