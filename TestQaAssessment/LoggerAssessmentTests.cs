@@ -9,6 +9,7 @@ public class LoggerAssessmentTests
     LoggerAssessment_DAO logger;
     string dateTime;
     string date;
+    string lastRecordId;
     List<string> lines;
     [SetUp]
     public void Setup()
@@ -19,7 +20,36 @@ public class LoggerAssessmentTests
         logger = new LoggerAssessment_DAO(directory);
         dateTime = DateTime.Now.ToLongTimeString();
         date = DateTime.Now.ToLongDateString();
-        lines = new List<string>();
+        lines = new List<string>(logger.readsTheLogFile(directory, "Log.txt"));
+        lastRecordId = lines.ElementAt(lines.Count-4);
+    }
+
+    [Test]
+    public void TestLastRecordPresenceInLastPosition()
+    {
+        bool lastLogPresent = false;
+        bool lastLogInTheLastPosition = false;
+        logLevel = LogLevel.INFO;
+        for (int i = 0; i < lines.Count; i++)
+        {
+            if (lines[i].StartsWith("Log Entry") && lines[i].Contains(lastRecordId))
+            {
+                lastLogPresent = true;
+
+                //if the 5th position from the `Log Entry` line is null, it means that the record is correspondingly in the last position of the log file,
+                //once the return of the try block is going to be a catch (due to be null), otherwise it`s going to return the `Log Entry` of the next record
+                try 
+                {
+                    var aux = lines[i + 5];
+                }
+                catch (ArgumentOutOfRangeException e)
+                {
+                   lastLogInTheLastPosition = true; 
+                }
+            }
+        }
+        Assert.True(lastLogPresent);
+        Assert.True(lastLogInTheLastPosition);
     }
 
     [Test]
@@ -37,11 +67,12 @@ public class LoggerAssessmentTests
                 Assert.True(lines[i + 1].Contains("INFO"));
             }
         }
+
     }
 
     [Test]
     public void TestLoggerLevel_CRITICAL()
-    {
+    {    
         logLevel = LogLevel.CRITICAL;
         logger.Log(guid, "user accessed the system session - CRITICAL", logLevel, loggedUser.Name, dateTime, date);
         
