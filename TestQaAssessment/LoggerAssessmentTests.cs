@@ -21,8 +21,7 @@ public class LoggerAssessmentTests
         dateTime = DateTime.Now.ToLongTimeString();
         date = DateTime.Now.ToLongDateString();
         lines = new List<string>(logger.readsTheLogFile(directory, "Log.txt"));
-        // lastRecordId = lines.ElementAt(lines.Count-4);
-        lastRecordId = "c8797d8c-8fc5-4ee4-a2e8-ab631f45f7b0";
+        lastRecordId = lines.ElementAt(lines.Count-4);
     }
 
     [Test]

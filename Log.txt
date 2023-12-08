@@ -134,3 +134,23 @@ Message: user accessed the system session - INFO.
 [INFO] user clandrade logged in 1:27:35 PM Friday, December 8, 2023
 Message: user accessed the system session - INFO.
 --------------------------------------------------------------------------------------------
+Log Entry: 1b9eb877-c545-4b6d-a4fa-b1e2203d7784
+[INFO] user clandrade logged in 2:52:46 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 2de2db42-2c72-415d-b891-7e04d0b6a321
+[CRITICAL] user clandrade logged in 2:52:46 PM Friday, December 8, 2023
+Message: user accessed the system session - CRITICAL.
+--------------------------------------------------------------------------------------------
+Log Entry: 83c95378-0df1-4204-9e8a-a13b504cd3de
+[TRACE] user clandrade logged in 2:52:46 PM Friday, December 8, 2023
+Message: asserts that the infos related to the date is being stored to the log file - TRACE.
+--------------------------------------------------------------------------------------------
+Log Entry: 8a1429d0-d151-494c-adcd-1f891d318d76
+[INFO] user clandrade logged in 2:52:46 PM Friday, December 8, 2023
+Message: user accessed the system session - INFO.
+--------------------------------------------------------------------------------------------
+Log Entry: 1b029bbf-08a4-44be-b576-c3c00d436436
+[INFO] user clandrade logged in 2:52:46 PM Friday, December 8, 2023
+Message: asserts that the log message is being stored to the log file.
+--------------------------------------------------------------------------------------------
